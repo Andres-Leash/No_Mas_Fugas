@@ -1,0 +1,51 @@
+id_egreso,integrante_familiar,nombre_egreso,tipo_egreso,fecha,monto
+1,Mamá,Cuenta luz enero,luz,2026-01-10,48500
+2,Papá,Cuenta agua enero,agua,2026-01-15,23200
+3,Mamá,Supermercado mes,alimentación,2026-01-20,165000
+4,Hijo,Útiles escolares,escolaridad,2026-02-05,42000
+5,Papá,Gas domiciliario,gas,2026-02-12,38000
+6,Mamá,Cuenta luz febrero,luz,2026-02-10,46200
+7,Papá,Cuenta agua febrero,agua,2026-02-15,22500
+8,Mamá,Compra supermercado,alimentación,2026-02-22,158000
+9,Hija,Mensualidad colegio,escolaridad,2026-03-01,95000
+10,Papá,Recarga gas,gas,2026-03-08,41000
+11,Mamá,Cuenta luz marzo,luz,2026-03-11,49800
+12,Papá,Cuenta agua marzo,agua,2026-03-16,24000
+13,Mamá,Feria y supermercado,alimentación,2026-03-25,172000
+14,Hijo,Material escolar,escolaridad,2026-04-03,38000
+15,Papá,Gas cocina,gas,2026-04-09,39500
+16,Mamá,Cuenta luz abril,luz,2026-04-11,52000
+17,Papá,Cuenta agua abril,agua,2026-04-18,25500
+18,Mamá,Compra mensual alimentos,alimentación,2026-04-26,168000
+19,Hija,Cuota colegio,escolaridad,2026-05-02,97000
+20,Papá,Carga gas,gas,2026-05-10,42000
+21,Mamá,Cuenta luz mayo,luz,2026-05-12,54500
+22,Papá,Cuenta agua mayo,agua,2026-05-17,26800
+23,Mamá,Supermercado y feria,alimentación,2026-05-24,175000
+24,Hijo,Libros escolares,escolaridad,2026-06-04,52000
+25,Papá,Gas invierno,gas,2026-06-11,48000
+26,Mamá,Cuenta luz junio,luz,2026-06-13,61200
+27,Papá,Cuenta agua junio,agua,2026-06-19,28500
+28,Mamá,Compra alimentos invierno,alimentación,2026-06-27,182000
+29,Hija,Colegio junio,escolaridad,2026-07-03,98000
+30,Papá,Gas julio,gas,2026-07-09,45000
+31,Mamá,Cuenta luz adicional,luz,2026-07-11,63500
+32,Papá,Cuenta agua julio,agua,2026-07-15,29800
+33,Mamá,Compra quincenal alimentos,alimentación,2026-07-16,89000
+34,Hijo,Cuaderno y materiales,escolaridad,2026-01-28,27000
+35,Papá,Gas recambio,gas,2026-01-30,36000
+36,Mamá,Luz segunda vivienda,luz,2026-02-18,39000
+37,Papá,Agua consumo extra,agua,2026-02-25,26000
+38,Mamá,Compra alimentos marzo,alimentación,2026-03-05,92000
+39,Hija,Uniforme escolar,escolaridad,2026-03-12,68000
+40,Papá,Gas emergencia,gas,2026-03-18,34000
+41,Mamá,Cuenta luz recargo,luz,2026-04-21,56500
+42,Papá,Cuenta agua adicional,agua,2026-04-23,27800
+43,Mamá,Supermercado abril,alimentación,2026-04-28,134000
+44,Hijo,Impresiones colegio,escolaridad,2026-05-06,15000
+45,Papá,Gas estufa,gas,2026-05-14,52000
+46,Mamá,Cuenta luz junio extra,luz,2026-06-21,65800
+47,Papá,Cuenta agua invierno,agua,2026-06-23,31000
+48,Mamá,Compra alimentos junio,alimentación,2026-06-29,97000
+49,Hija,Material educativo,escolaridad,2026-07-06,34000
+50,Papá,Gas cocina julio,gas,2026-07-12,47000
