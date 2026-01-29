@@ -1,7 +1,7 @@
 import funciones_principales
 from validaciones import validar_opciones
 
-
+print ('cargo menu')
 def abrir_menu (egresos_familia, ingresos_familia):
     print('==Bienvenido al sistema de gestion de ingresos del hogar==')
     print('')
@@ -33,6 +33,7 @@ def abrir_menu (egresos_familia, ingresos_familia):
                 funciones_principales.promedio_egresos(egresos_familia)
             case '5':
                 print ('Gracias por su preferencia')
+                sesion = False
             case _:
                 validar_opciones(opcion)
             

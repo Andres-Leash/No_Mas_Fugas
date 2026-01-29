@@ -28,8 +28,8 @@ def cargar_ingresos_familia (ruta):
             for fila in lector:
                 ID = fila["id"]
                 ingresos[ID] = {
-                    "integrante": fila['integrante_familiar'],
-                    "fecha": fila['tipo_egreso'],
+                    "integrante": fila['integrante'],
+                    "fecha": fila['fecha'],
                     "monto": int(fila['monto'])          
                 }
         return ingresos
