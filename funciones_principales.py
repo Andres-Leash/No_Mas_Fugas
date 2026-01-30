@@ -1,5 +1,6 @@
 import validaciones
-import datetime
+from datetime import datetime
+
 
 
 def obtener_integrantes_y_meses(egresos_familia):
@@ -7,8 +8,12 @@ def obtener_integrantes_y_meses(egresos_familia):
     integrantes = set() #variable se convertira a tupla despues
     rango_meses = set() #se mantendrá como conjunto
     for dato in egresos_familia.values(): #itera los valores del diccionario
+        #añade a integrantes la itenracion de integrante
         integrantes.add(dato['integrante'])
-        rango_meses.add(dato['fecha'])
+
+        fecha = datetime.strptime(dato['fecha'], '%Y-%m-%d')
+        meses = fecha.month
+        rango_meses.add(meses)
     rango_meses = sorted(rango_meses) #Lo ordena alfabeticamente
     integrantes = tuple(sorted(integrantes)) #Lo ordena y transforma a tupla
     return integrantes, rango_meses
@@ -19,6 +24,8 @@ def obtener_integrantes_y_meses(ingresos_familia):
     rango_meses = set() #se mantendrá como conjunto
     for dato in ingresos_familia.values(): #itera los valores del diccionario
         integrantes.add(dato['integrante'])
+
+
         rango_meses.add(dato['fecha'])
     rango_meses = sorted(rango_meses) #Lo ordena alfabeticamente
     integrantes = tuple(sorted(integrantes)) #Lo ordena y transforma a tupla
@@ -63,7 +70,11 @@ def total_ingresos (ingresos_familia):
                     print ('Intente nuevamente')
                     print ('-'*30)
         case '2':
-            pass
+            Total = 0
+            for dato in ingresos_familia.values():
+                Total += dato['monto']
+            print (f'El total de ingresos es de ${Total}')
+            print ('-'*30)
         case '3':
             print ('Gracias por su preferencia')
         case _:
