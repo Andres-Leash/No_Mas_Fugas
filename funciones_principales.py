@@ -7,7 +7,7 @@ import validaciones
 # Se definen 2 funciones para separar datos a partir del diccionario y estandarizarlos
 # Ambas funciones son uno para Egresos y el otro para Ingresos
 # También se define una función para recursividad en totales de egresos e ingresos
-# También se definen las funciones operacionales: ingresos, egresos y saldo
+# Finalmente se definen las funciones operacionales: ingresos, egresos y saldo
 
 
 def obtener_variables_egresos(egresos_familia):
